@@ -1,0 +1,6 @@
+@PlantGeneServer_HostAddress = http://localhost:5281
+
+GET {{PlantGeneServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
