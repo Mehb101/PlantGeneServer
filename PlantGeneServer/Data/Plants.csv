@@ -1,0 +1,91 @@
+gene,size,charecteristic,cost,family,familyId,geneId
+Rose,Small to medium,thorny,60,Rosaceae (Rose),1,1
+Strawberry,Small to medium,thorny,50,Rosaceae (Rose),2,2
+ Plum,Small to medium,thorny,80,Rosaceae (Rose),3,3
+Peach,Small to medium,thorny,45,Rosaceae (Rose),4,4
+ Almond,Small to medium,thorny,90,Rosaceae (Rose),5,5
+Strawberry,Small ,Grouped flowers,80,Asteraceae,6,6
+Daisy,Small ,Grouped flowers,60,Asteraceae,7,7
+Sunflowers,Small ,Grouped flowers,30,Asteraceae,8,8
+Lettuce,Small ,Grouped flowers,20,Asteraceae,9,9
+Marigold,Small ,Grouped flowers,30,Asteraceae,10,10
+Salvia ,Medium,four-angled stem.,40,Lamiaceae,11,11
+Lavender,Medium,four-angled stem.,50,Lamiaceae,12,12
+Mint,Medium,four-angled stem.,30,Lamiaceae,13,13
+Basil,Medium,four-angled stem.,40,Lamiaceae,14,14
+Thymes,Medium,four-angled stem.,60,Lamiaceae,15,15
+Wheat ,Small,Upright,80,Poaceae,16,16
+Corn,Small,Upright,43,Poaceae,17,17
+Barley,Small,Upright,45,Poaceae,18,18
+Lemongrass,Small,Upright,54,Poaceae,19,19
+Lawngrass,Small,Upright,67,Poaceae,20,20
+Chickweed,Small to medium,Opposite leaves,46,Caryophyllaceae,21,21
+Catchflies,Small to medium,Opposite leaves,87,Caryophyllaceae,22,22
+Pink,Small to medium,Opposite leaves,23,Caryophyllaceae,23,23
+Minuartia,Small to medium,Opposite leaves,56,Caryophyllaceae,24,24
+Carnation,Small to medium,Opposite leaves,78,Caryophyllaceae,25,25
+Lily,Small to medium,Large Flowers,67,Liliaceae,26,26
+Tulip,Small to medium,Large Flowers,55,Liliaceae,27,27
+Gagea,Small to medium,Large Flowers,34,Liliaceae,28,28
+Tricyrtis,Small to medium,Large Flowers,24,Liliaceae,29,29
+Fritillaries,Small to medium,Large Flowers,45,Liliaceae,30,30
+Radish,Small ,Four pettaled,77,Brassicaceae,31,31
+Turnip,Small,Four pettaled,88,Brassicaceae,32,32
+ Bokchoy,Small,Four pettaled,42,Brassicaceae,33,33
+Broccoli ,Small,Four pettaled,77,Brassicaceae,34,34
+Lentils,Small,Four pettaled,34,Brassicaceae,35,35
+Cabbage,Small,Compound leaves,67,Fabaceae,36,36
+Chickpea,Small,Compound leaves,43,Fabaceae,37,37
+Soybean,Small,Compound leaves,78,Fabaceae,38,38
+Pea,Small,Compound leaves,30,Fabaceae,39,39
+Peanut,Small,Compound leaves,45,Fabaceae,40,40
+Iris,Small to medium,Three sepals,56,Iridaceae,41,41
+Moraea,Small to medium,Three sepals,65,Iridaceae,42,42
+Babiana ,Small to medium,Three sepals,56,Iridaceae,43,43
+Watsonia,Small to medium,Three sepals,89,Iridaceae,44,44
+Sparaxis,Small to medium,Three sepals,31,Iridaceae,45,45
+Bananas,Tall,Herbaceous,76,Musaceae,46,46
+Musa,Tall,Herbaceous,64,Musaceae,47,47
+Ensete,Tall,Herbaceous,56,Musaceae,48,48
+Musella,Tall,Herbaceous,44,Musaceae,49,49
+M. glaucum,Tall,Herbaceous,5,Musaceae,50,50
+Nightshade,Medium to Tall,Taproots,55,Solanaceae,51,51
+Potato,Medium to Tall,Taproots,65,Solanaceae,52,52
+Tomato,Medium to Tall,Taproots,256,Solanaceae,53,53
+Eggplant,Medium to Tall,Taproots,666,Solanaceae,54,54
+Datura,Medium to Tall,Taproots,25,Solanaceae,55,55
+Knotweed,Small to medium,Alternate leaves,554,Polygonaceae,56,56
+Fallopia,Small to medium,Alternate leaves,565,Polygonaceae,57,57
+Dock,Small to medium,Alternate leaves,52,Polygonaceae,58,58
+Buckwheat,Small to medium,Alternate leaves,2545,Polygonaceae,59,59
+Garden rhubarp,Small to medium,Alternate leaves,2,Polygonaceae,60,60
+Amarnth,Small,Spiral Leaves,556,Amaranthaceae,61,61
+CocksComb,Small,Spiral Leaves,25,Amaranthaceae,62,62
+Quinoa,Small,Spiral Leaves,56,Amaranthaceae,63,63
+Goosefoots,Small,Spiral Leaves,65,Amaranthaceae,64,64
+Salsola,Small,Spiral Leaves,6598,Amaranthaceae,65,65
+Parsley,Small,Hollow stem,95,Apiaceae,66,66
+Fennel,Small,Hollow stem,696,Apiaceae,67,67
+Coriander,Small,Hollow stem,96,Apiaceae,68,68
+Celery,Small,Hollow stem,656,Apiaceae,69,69
+Cumin,Small,Hollow stem,6,Apiaceae,70,70
+Bignonia,Tall,Compound leaves,662,Bignoniaceae,71,71
+Trumpet trees,Tall,Compound leaves,6,Bignoniaceae,72,72
+Poui,Tall,Compound leaves,66,Bignoniaceae,73,73
+Yellow elder,Tall,Compound leaves,626,Bignoniaceae,74,74
+Catalpas,Tall,Compound leaves,2,Bignoniaceae,75,75
+Cactus,Medium,Succlent stems,9,Cactaceae,76,76
+Prickly pear,Medium,Succlent stems,69,Cactaceae,77,77
+Saguaro,Medium,Succlent stems,56,Cactaceae,78,78
+Barbery fig,Medium,Succlent stems,669,Cactaceae,79,79
+Jamacaru,Medium,Succlent stems,64,Cactaceae,80,80
+Bellflowert,Small to medium,Usually blue flowers,4,Campanulaceae,81,81
+Lobelias,Small to medium,Usually blue flowers,46,Campanulaceae,82,82
+Ladybells,Small to medium,Usually blue flowers,53,Campanulaceae,83,83
+Sheeps bit,Small to medium,Usually blue flowers,25,Campanulaceae,84,84
+Phyteuma,Small to medium,Usually blue flowers,25,Campanulaceae,85,85
+Orchid,Small to medium,Symmetric plants,25,Orchids,86,86
+Dendrobium,Small to medium,Symmetric plants,3,Orchids,87,87
+Orchis,Small to medium,Symmetric plants,4,Orchids,88,88
+ Vanda,Small to medium,Symmetric plants,343,Orchids,89,89
+Venus slipper,Small to medium,Symmetric plants,53,Orchids,90,90

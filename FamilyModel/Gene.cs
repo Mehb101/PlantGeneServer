@@ -3,24 +3,27 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace FamilyModel;
 
-public partial class Genu
+[Table("Gene")]
+
+public partial class Gene
 {
     [Key]
-    public int GenusId { get; set; }
+    public int GeneId { get; set; }
 
-    [Unicode(false)]
     public string Size { get; set; } = null!;
 
-    [Unicode(false)]
+   
     public string Charecteristic { get; set; } = null!;
+    public int cost { get; set; }
 
     public int FamilyId { get; set; }
-    public string Name { get; set; } = null!;
+    public required string Name { get; set; }
 
     [ForeignKey("FamilyId")]
-    [InverseProperty("Genus")]
+    [InverseProperty("Gene")]
     public virtual Family Family { get; set; } = null!;
 }

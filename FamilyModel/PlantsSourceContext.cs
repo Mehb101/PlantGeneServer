@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+
 namespace FamilyModel;
 
-public partial class PlantsSourceContext : DbContext
+public partial class PlantsSourceContext : IdentityDbContext<PlantGeneUser>
 {
     public PlantsSourceContext()
     {
@@ -15,9 +17,9 @@ public partial class PlantsSourceContext : DbContext
     {
     }
 
-    public virtual DbSet<Family> Families { get; set; }
+    public virtual DbSet<Family> Family { get; set; }
 
-    public virtual DbSet<Genu> Genus { get; set; }
+    public virtual DbSet<Gene> Gene { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -31,16 +33,17 @@ public partial class PlantsSourceContext : DbContext
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Family>(entity =>
         {
             entity.HasKey(e => e.FamilyId).HasName("PK__Table__41D82F6B84CD1217");
         });
 
-        modelBuilder.Entity<Genu>(entity =>
+        modelBuilder.Entity<Gene>(entity =>
         {
-            entity.HasKey(e => e.GenusId).HasName("PK__Table__110363700F6A1A72");
+            entity.HasKey(e => e.GeneId).HasName("PK__Table__110363700F6A1A72");
 
-            entity.HasOne(d => d.Family).WithMany(p => p.Genus)
+            entity.HasOne(d => d.Family).WithMany(p => p.Gene)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Genus_Family");
         });

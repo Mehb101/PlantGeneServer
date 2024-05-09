@@ -16,5 +16,5 @@ public partial class Family
     public string Name { get; set; } = null!;
 
     [InverseProperty("Family")]
-    public virtual ICollection<Genu> Genus { get; set; } = new List<Genu>();
+    public virtual ICollection<Gene> Gene { get; set; } = new List<Gene>();
 }
