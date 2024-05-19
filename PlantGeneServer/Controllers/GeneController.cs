@@ -17,7 +17,7 @@ namespace PlantGeneServer.Controllers
     [ApiController]
     public class GeneController(PlantsSourceContext context) : ControllerBase
     {
-        // GET: api/Cities
+        // GET: api/Gene
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Gene>>> GetGenes()
         {

@@ -22,14 +22,6 @@ namespace PlantGeneServer.Controllers
         {
             return await context.Family.ToListAsync();
         }
-        [HttpGet("FamiliesGenes/{id}")]
-        //[Authorize]
-        public async Task<ActionResult<IEnumerable<Gene>>> GetGenesByFamily(int id)
-        {
-            return await context.Gene.Where(c => c.FamilyId == id).ToListAsync();
-        }
-
-        // GET: api/Families/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Family>> GetFamily(int id)
         {
@@ -42,6 +34,16 @@ namespace PlantGeneServer.Controllers
 
             return family;
         }
+
+        [HttpGet("FamiliesGenes/{id}")]
+        [Authorize]
+        public async Task<ActionResult<IEnumerable<Gene>>> GetGenesByFamily(int id)
+        {
+            return await context.Gene.Where(c => c.FamilyId == id).ToListAsync();
+        }
+
+        // GET: api/Families/5
+       
 
         // PUT: api/Families/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

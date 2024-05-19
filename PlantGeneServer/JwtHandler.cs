@@ -5,6 +5,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
+
 namespace PlantGeneServer
 {
     public class JwtHandler(IConfiguration configuration, UserManager<PlantGeneUser> userManager)
@@ -32,7 +33,5 @@ namespace PlantGeneServer
             claims.AddRange(from role in await userManager.GetRolesAsync(user) select new Claim(ClaimTypes.Role, role));
             return claims;
         }
-
-        
     }
 }
